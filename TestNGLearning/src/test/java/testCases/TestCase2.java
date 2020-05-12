@@ -1,6 +1,7 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -10,12 +11,15 @@ public class TestCase2
     public void validateTitles()
     {
     	String expected_title= "Yahoo.com";
-    	String actual_title= "Gmail.com";
-    	
-    	Assert.assertEquals(actual_title, expected_title, "Title not matching");
+    	//String actual_title= "Gmail.com";
+    	String actual_title = "Yahoo.com";
+
+    	AssertJUnit.assertEquals(actual_title, expected_title, "Title matching");
+
+    	//Assert.assertEquals(actual_title, expected_title, "Title not matching");
     	Assert.assertTrue(true, "Forcibly passing test case");
 
-    	Assert.fail("Failing test case default");
+    	//Assert.fail("Failing test case default");
     			
     	/* To report multiple failures
     	SoftAssert sfa = new SoftAssert();

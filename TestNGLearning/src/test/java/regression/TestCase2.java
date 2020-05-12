@@ -15,14 +15,12 @@ public class TestCase2
     public void validateTitles()
     {
     	String expected_title= "Yahoo.com";
-    	//String actual_title= "Gmail.com";
-    	String actual_title = "Yahoo.com";
-    	//AssertJUnit.assertEquals(actual_title, expected_title, "Title not matching");
-    	AssertJUnit.assertEquals(actual_title, expected_title, "Title matching");
+    	String actual_title= "Gmail.com";
+    	AssertJUnit.assertEquals(actual_title, expected_title, "Title not matching");
     	
     	AssertJUnit.assertTrue(true);
         
-    	//Assert.fail("Failing test case default");
+    	Assert.fail("Failing test case default");
     			
     	/* To report multiple failures
     	SoftAssert sfa = new SoftAssert();

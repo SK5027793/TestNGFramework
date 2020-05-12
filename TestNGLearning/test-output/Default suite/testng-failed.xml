@@ -9,6 +9,16 @@
           <include name="doLogin"/>
         </methods>
       </class> <!-- testCases.TestCase3 -->
+      <class name="regression.TestCase2">
+        <methods>
+          <include name="validateTitles"/>
+        </methods>
+      </class> <!-- regression.TestCase2 -->
+      <class name="testCases.TestCase2">
+        <methods>
+          <include name="validateTitles"/>
+        </methods>
+      </class> <!-- testCases.TestCase2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

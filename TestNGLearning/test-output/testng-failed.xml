@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suite]">
-  <test thread-count="5" name="ValidateTitle Test(failed)">
-    <classes>
-      <class name="testCases.TestCase2">
-        <methods>
-          <include name="validateTitles"/>
-        </methods>
-      </class> <!-- testCases.TestCase2 -->
-    </classes>
-  </test> <!-- ValidateTitle Test(failed) -->
-  <test thread-count="5" name="Dependency Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="testCases.TestCase3">
         <methods>
@@ -18,6 +9,16 @@
           <include name="doLogin"/>
         </methods>
       </class> <!-- testCases.TestCase3 -->
+      <class name="regression.TestCase2">
+        <methods>
+          <include name="validateTitles"/>
+        </methods>
+      </class> <!-- regression.TestCase2 -->
+      <class name="testCases.TestCase2">
+        <methods>
+          <include name="validateTitles"/>
+        </methods>
+      </class> <!-- testCases.TestCase2 -->
     </classes>
-  </test> <!-- Dependency Test(failed) -->
-</suite> <!-- Failed suite [Functional Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

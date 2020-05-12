@@ -2,52 +2,12 @@
 <testng-results skipped="1" failed="3" ignored="0" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Master Suite" duration-ms="0" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
+  <suite name="Default suite" duration-ms="263" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
     <groups>
     </groups>
-  </suite> <!-- Master Suite -->
-  <suite name="Regression Suite" duration-ms="64" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-    <groups>
-    </groups>
-    <test name="Regression Login Test" duration-ms="37" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-      <class name="regression.TestCase1">
-        <test-method status="PASS" signature="creatingDBConnection()[pri:0, instance:regression.TestCase1@42d80b78]" name="creatingDBConnection" is-config="true" duration-ms="2" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatingDBConnection -->
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:regression.TestCase1@42d80b78]" name="lunchBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="doUserReg()[pri:1, instance:regression.TestCase1@42d80b78]" name="doUserReg" duration-ms="4" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doUserReg -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:regression.TestCase1@42d80b78]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:regression.TestCase1@42d80b78]" name="lunchBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="doLogin()[pri:2, instance:regression.TestCase1@42d80b78]" name="doLogin" duration-ms="3" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:regression.TestCase1@42d80b78]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closingDBConnection()[pri:0, instance:regression.TestCase1@42d80b78]" name="closingDBConnection" is-config="true" duration-ms="1" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingDBConnection -->
-      </class> <!-- regression.TestCase1 -->
-    </test> <!-- Regression Login Test -->
-    <test name="Regression Validation Test" duration-ms="13" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
+    <test name="Default test" duration-ms="263" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
       <class name="regression.TestCase2">
-        <test-method status="FAIL" signature="validateTitles()[pri:0, instance:regression.TestCase2@7cd62f43]" name="validateTitles" duration-ms="7" started-at="2020-05-11T11:23:46Z" finished-at="2020-05-11T11:23:46Z">
+        <test-method status="FAIL" signature="validateTitles()[pri:0, instance:regression.TestCase2@20e2cbe0]" name="validateTitles" duration-ms="34" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Gmail.com expected:<Yahoo.com> but was:<Title not matching>]]>
@@ -75,7 +35,6 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
@@ -89,50 +48,76 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- validateTitles -->
       </class> <!-- regression.TestCase2 -->
-    </test> <!-- Regression Validation Test -->
-  </suite> <!-- Regression Suite -->
-  <suite name="Functional Suite" duration-ms="267" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
-    <groups>
-    </groups>
-    <test name="Login Test" duration-ms="120" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
-      <class name="testCases.TestCase1">
-        <test-method status="PASS" signature="creatingDBConnection()[pri:0, instance:testCases.TestCase1@d2cc05a]" name="creatingDBConnection" is-config="true" duration-ms="29" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
+      <class name="regression.TestCase1">
+        <test-method status="PASS" signature="creatingDBConnection()[pri:0, instance:regression.TestCase1@2a2d45ba]" name="creatingDBConnection" is-config="true" duration-ms="28" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingDBConnection -->
-        <test-method status="PASS" signature="doUserReg()[pri:1, instance:testCases.TestCase1@d2cc05a]" name="doUserReg" duration-ms="14" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
+        <test-method status="PASS" signature="creatingDBConnection()[pri:0, instance:testCases.TestCase1@2a5ca609]" name="creatingDBConnection" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingDBConnection -->
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:regression.TestCase1@2a2d45ba]" name="lunchBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method status="PASS" signature="doUserReg()[pri:1, instance:regression.TestCase1@2a2d45ba]" name="doUserReg" duration-ms="5" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserReg -->
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:testCases.TestCase1@d2cc05a]" name="lunchBrowser" is-config="true" duration-ms="0" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TestCase1@d2cc05a]" name="closeBrowser" is-config="true" duration-ms="5" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:regression.TestCase1@2a2d45ba]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="doLogin()[pri:2, instance:testCases.TestCase1@d2cc05a]" name="doLogin" duration-ms="4" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:regression.TestCase1@2a2d45ba]" name="lunchBrowser" is-config="true" duration-ms="0" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method status="PASS" signature="doLogin()[pri:2, instance:regression.TestCase1@2a2d45ba]" name="doLogin" duration-ms="14" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:testCases.TestCase1@d2cc05a]" name="lunchBrowser" is-config="true" duration-ms="0" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TestCase1@d2cc05a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:regression.TestCase1@2a2d45ba]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closingDBConnection()[pri:0, instance:testCases.TestCase1@d2cc05a]" name="closingDBConnection" is-config="true" duration-ms="1" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
+        <test-method status="PASS" signature="closingDBConnection()[pri:0, instance:regression.TestCase1@2a2d45ba]" name="closingDBConnection" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingDBConnection -->
+        <test-method status="PASS" signature="closingDBConnection()[pri:0, instance:testCases.TestCase1@2a5ca609]" name="closingDBConnection" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDBConnection -->
+      </class> <!-- regression.TestCase1 -->
+      <class name="testCases.TestCase1">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:testCases.TestCase1@2a5ca609]" name="lunchBrowser" is-config="true" duration-ms="2" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method status="PASS" signature="doUserReg()[pri:1, instance:testCases.TestCase1@2a5ca609]" name="doUserReg" duration-ms="3" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserReg -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TestCase1@2a5ca609]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:testCases.TestCase1@2a5ca609]" name="lunchBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method status="PASS" signature="doLogin()[pri:2, instance:testCases.TestCase1@2a5ca609]" name="doLogin" duration-ms="4" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TestCase1@2a5ca609]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- testCases.TestCase1 -->
-    </test> <!-- Login Test -->
-    <test name="ValidateTitle Test" duration-ms="18" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
       <class name="testCases.TestCase2">
-        <test-method status="FAIL" signature="validateTitles()[pri:0, instance:testCases.TestCase2@523884b2]" name="validateTitles" duration-ms="0" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
+        <test-method status="FAIL" signature="validateTitles()[pri:0, instance:testCases.TestCase2@68be2bc2]" name="validateTitles" duration-ms="11" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Title not matching expected [Yahoo.com] but found [Gmail.com]]]>
@@ -164,7 +149,6 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
@@ -178,10 +162,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- validateTitles -->
       </class> <!-- testCases.TestCase2 -->
-    </test> <!-- ValidateTitle Test -->
-    <test name="Dependency Test" duration-ms="25" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
       <class name="testCases.TestCase3">
-        <test-method status="FAIL" signature="doUserRegistration()[pri:1, instance:testCases.TestCase3@68c4039c]" name="doUserRegistration" duration-ms="6" started-at="2020-05-11T11:23:45Z" finished-at="2020-05-11T11:23:45Z">
+        <test-method status="FAIL" signature="doUserRegistration()[pri:1, instance:testCases.TestCase3@28feb3fa]" name="doUserRegistration" duration-ms="4" started-at="2020-05-11T17:27:11Z" finished-at="2020-05-11T17:27:11Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[User is not registered]]>
@@ -209,7 +191,6 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
@@ -222,13 +203,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserRegistration -->
-        <test-method status="SKIP" signature="doLogin()[pri:2, instance:testCases.TestCase3@68c4039c]" name="doLogin" duration-ms="0" started-at="2020-05-11T11:23:45Z" depends-on-methods="testCases.TestCase3.doUserRegistration" finished-at="2020-05-11T11:23:45Z">
+        <test-method status="SKIP" signature="doLogin()[pri:2, instance:testCases.TestCase3@28feb3fa]" name="doLogin" duration-ms="0" started-at="2020-05-11T17:27:11Z" depends-on-methods="testCases.TestCase3.doUserRegistration" finished-at="2020-05-11T17:27:11Z">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TestCase3.doLogin()[pri:2, instance:testCases.TestCase3@68c4039c] depends on not successfully finished methods]]>
+              <![CDATA[Method TestCase3.doLogin()[pri:2, instance:testCases.TestCase3@28feb3fa] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:testCases.TestCase3@68c4039c] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:testCases.TestCase3@28feb3fa] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -241,7 +222,6 @@ at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
 at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
@@ -255,6 +235,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- doLogin -->
       </class> <!-- testCases.TestCase3 -->
-    </test> <!-- Dependency Test -->
-  </suite> <!-- Functional Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
